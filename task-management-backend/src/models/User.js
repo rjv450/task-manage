@@ -10,6 +10,6 @@ const UserSchema = new mongoose.Schema({
     timestamps: true, // Adds createdAt and updatedAt fields
   });
 
-  const User = mongoose.model('Task', UserSchema);
+  const User = mongoose.model('User', UserSchema);
 
   export default User;
